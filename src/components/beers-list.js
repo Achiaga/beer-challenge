@@ -13,7 +13,6 @@ const Wrapper = styled.div`
 
 const BeerList = () => {
 	const allBeersList = useSelector(allBeers);
-	console.log(allBeersList);
 	return (
 		<Wrapper>
 			{allBeersList &&

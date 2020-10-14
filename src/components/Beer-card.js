@@ -34,7 +34,6 @@ const CardWrapper = styled.div`
 `;
 
 const BeerCard = ({ beerItem }) => {
-	console.log(beerItem);
 	return (
 		<CardWrapper>
 			<Card>
